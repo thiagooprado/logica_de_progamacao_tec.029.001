@@ -1,5 +1,5 @@
 # Entrada de dados
-nome = str(input("Digite seu nome: "))
+nome = input("Digite seu nome: ").strip() .title()
 idade = int(input("Digite sua idade: "))
 
 # Saída de dados
